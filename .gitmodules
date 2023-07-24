@@ -1,0 +1,3 @@
+[submodule "clean-arch-node"]
+	path = template/clean-arch-node
+	url = https://github.com/grootkng/clean-arch-node

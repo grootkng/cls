@@ -1,0 +1,34 @@
+{
+  "name": "cls",
+  "version": "1.0.0",
+  "description": "A CLI project to create an application using Clean Architecture, Swagger, Unit test with Jest, Express and Docker",
+  "main": "index.js",
+  "repository": "github:grootkng/cls",
+  "bin": {
+    "@grootkng/cls": "bin/cls",
+    "cls": "bin/cls"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "cls"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "author": "Victor",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.4",
+    "ncp": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
